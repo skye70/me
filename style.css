@@ -1,0 +1,63 @@
+body {
+    background: rgba(2, 2, 2, 0.596);
+    color: #060707;
+    font-family: 'Courier New', Courier, monospace;
+
+   
+}
+
+h1, h2,h3,h4 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 3%;
+    padding: auto;
+
+}
+
+.links ul {
+    flex-direction: column;
+}
+
+
+
+
+
+.services {
+    background-color: aquamarine;
+    border: 10px;
+    margin: 10px;    
+    border-radius: 2%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menum {
+    background-color: antiquewhite;
+    border-radius: 10em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.9rem 1.9rem;
+    color: rgb(63, 233, 57) !important;
+    background-color: var(--mainColor);
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: var(--hoverColor);
+    transform: scale(1) !important;
+  }
+  
+.intro {
+    font-size: 1.4rem;
+    color: var(--darkOne);
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+
+
